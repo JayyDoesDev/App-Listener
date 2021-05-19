@@ -1,6 +1,6 @@
 {
   "name": "app-listener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/app.ts",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
