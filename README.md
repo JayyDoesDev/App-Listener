@@ -22,7 +22,7 @@ app.listen(3000)
 
 ## JavaScript
 ```javascript
-const { default: applistener } = require('../../dist/app')
+const { default: applistener } = require('app-listener')
 
 const app = new applistener()
 app.listen(3000)
