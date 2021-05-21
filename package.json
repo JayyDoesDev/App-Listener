@@ -1,7 +1,7 @@
 {
   "name": "app-listener",
   "version": "1.0.3",
-  "main": "src/app.ts",
+  "main": "dist/app.js",
   "author": "Jdevdisc <69683068+JDevelo@users.noreply.github.com>",
   "license": "MIT",
   "types": "dist/app.d.ts",
