@@ -1,4 +1,4 @@
-declare class appListener {
+export default class appListener {
     port: number;
     app: any;
     chalk: any;
@@ -7,4 +7,3 @@ declare class appListener {
     });
     listen(num?: number): Promise<void>;
 }
-export { appListener };
