@@ -29,7 +29,7 @@ export default class appListener {
         this.chalk = require('chalk')
     }
     async listen(num?: number) {
-        if(!num) throw new ReferenceError('You need to provide a number.')
+        if(!num || Number) throw new ReferenceError('You need to provide a number.')
         this.app.get('/', (req: any, res: any) => {
             res.send('Ping.')
         })
