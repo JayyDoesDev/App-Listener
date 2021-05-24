@@ -22,5 +22,6 @@
   },
   "repository": {
     "url": "https://github.com/JDevelo/App-Listener"
-  }
+  }, 
+  "keywords": ["app", "express", "port", "jlj"]
 }
