@@ -22,9 +22,9 @@ app.listen(3000)
 
 ## JavaScript
 ```javascript
-const { applistener } = require('app-listener')
+const { appListener } = require('app-listener')
 
-const app = new applistener()
+const app = new appListener()
 app.listen(3000)
 ```
 
