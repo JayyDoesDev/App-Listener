@@ -2,15 +2,15 @@ export default class appListener {
     /**
      * Port is a number
      */
-    public port: number;
+    private port: number;
     /**
      * App is to require express
      */
-    public app;
+    private app;
     /**
      * Chalk will help with logging in the console with color.
      */
-    public chalk;
+    private chalk;
     
     constructor(ops = {
         port: null as any
@@ -28,7 +28,7 @@ export default class appListener {
          */
         this.chalk = require('chalk')
     }
-    async listen(num?: number) {
+    public async listen(num?: number) {
         if(!num || Number) throw new ReferenceError('You need to provide a number.')
         this.app.get('/', (req: any, res: any) => {
             res.send('Ping.')
